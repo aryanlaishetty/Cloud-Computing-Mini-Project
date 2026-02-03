@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-size: 1rem;
+
+    background-image: url(gifs/11.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 10px;
+}
+
+.logo {
+    font-family: "Playwrite CO", cursive;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-style: normal;
+    position: relative;
+    left: 1rem;
+    color: white;
+    text-shadow: #ff699a 1px 1px 30px;
+}
+
+.btns-container {
+    background-color: #6448ad;
+    padding: 5px 20px 5px;
+    border-radius: 22px;
+}
+
+/* .btns-container img {
+    margin: 0 10px 0 10px;
+} */
+
+/* .par-head-btns {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    
+} */
+
+.header-btns {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    /* width: 25%; */
+    height: auto;
+    right: 0.5%;
+    margin: 0.5rem;
+    padding: 5px 10px 7px; 
+    border-radius: 22px;
+    background-color: #6448ad;
+}
+
+.header-btns div {
+    margin: 0px 10px 0px 10px;
+}
+
+
+div img {
+    filter: invert();
+    height: 30px;
+    width: 30px;
+    /* padding: 0 1px 0 1px; */
+}
+
+/* .f12 {
+    filter: invert();
+    background-color: transparent;
+} */
+
+.side-btns {
+    width: auto;
+    height: 5rem;
+    position: absolute;
+    right: 0.5%;
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 5px 10px 5px;
+}
+
+.side-btns i {
+    margin: 30% 0 30% 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    left: 50%;
+    right: 50%;
+    justify-self: center;
+    height: auto;
+    align-items: center;
+}
+
+.inside-title-icon {
+    display: flex;
+    align-content: center;
+} 
+
+
+.title-bar {
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+    width: 82%;
+    /* padding: 0 1rem; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+
+}
+
+.now-playing {
+    padding-right: 0%;
+    width: 39rem;
+}
+
+.inside-title {
+    display: flex;
+    align-content: center;
+    padding-right: 1%;
+}
+
+.song-name {
+    display: flex;
+    align-content: center;
+}
+
+.botton-right-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.botton-right-btns div {
+    padding: 0.45rem;
+}
+
+.volume-knob {
+    /* transform: rotate(-180deg); */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* .url-bar {
+    width: 25%;
+} */
