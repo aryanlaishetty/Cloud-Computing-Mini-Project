@@ -2,6 +2,7 @@ const playButton = document.getElementById("play");
 const todoItemsContainer = document.getElementById('todolist');
 const addTodoButton = document.getElementById('addTodoButton');
 const saveTodoButton = document.getElementById('saveTodoButton');
+const volumeKnob = document.getElementsByClassName('volume-knob');
 
 // const img = document.createElement('img');
 // img.src = 'https://assets.ccbp.in/frontend/react-js/nxt-watch-no-saved-videos-img.png';
@@ -194,3 +195,5 @@ function startTimer() {
 function stopTimer() {
     clearInterval(id)
 }
+
+

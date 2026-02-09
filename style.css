@@ -139,10 +139,10 @@ div img {
     /* font-weight: <weight>; */
     font-style: normal;
     font-variation-settings:
-        "slnt"0,
-        "CRSV"0.5,
-        "ELSH"0,
-        "ELXP"0;
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
 
     width: auto;
     /* padding: 0 1rem; */
@@ -185,7 +185,16 @@ div img {
     padding: 0;
     display: flex;
     justify-content: center;
+    transform-origin: 50% 50%;
+    transition: transform 0.05s linear;
+    /* user-select: none;
+    pointer-events: none; */
+
 }
+
+/* #volume-knob:hover {
+  filter: brightness(1.1);
+} */
 
 .list {
     border-width: 0px;
@@ -311,14 +320,16 @@ div img {
 }
 
 .custom {
-    background-color: #212529 !important; 
+    background-color: #212529 !important;
     color: white;
 }
-.no-img{
+
+.no-img {
     height: 120px;
     width: 140px;
 }
-.clock-container{
+
+.clock-container {
     width: 80%;
     margin-bottom: 20px;
     display: flex;
@@ -326,21 +337,25 @@ div img {
     justify-content: center;
     align-items: center;
 }
-.white{
+
+.white {
     color: white;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.clock-img{
+
+.clock-img {
     height: 50px;
     width: 50px;
 }
-.time{
+
+.time {
     margin-left: 10px;
 }
 
