@@ -42,6 +42,7 @@ header {
 }
 
 .btns-container {
+    color: white;
     background-color: #6448ad;
     padding: 5px 20px 5px;
     border-radius: 22px;
@@ -70,6 +71,7 @@ header {
     padding: 5px 10px 7px;
     border-radius: 22px;
     background-color: #6448ad;
+    color: white;
 }
 
 .header-btns div {
@@ -142,7 +144,7 @@ div img {
         "ELSH"0,
         "ELXP"0;
 
-    width: 82%;
+    width: auto;
     /* padding: 0 1rem; */
     display: flex;
     flex-wrap: nowrap;
@@ -309,7 +311,7 @@ div img {
 }
 
 .custom {
-    background-color: #ffffff !important; 
+    background-color: #212529 !important; 
     color: white;
 }
 .no-img{
@@ -340,4 +342,22 @@ div img {
 }
 .time{
     margin-left: 10px;
+}
+
+.btn-primary {
+    background-color: #6448ad;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6448ad;
+    --bs-btn-border-color: #6448ad;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7661ac;
+    --bs-btn-hover-border-color: #6448ad;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6448ad;
+    --bs-btn-active-border-color: #6448ad;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6448ad;
+    --bs-btn-disabled-border-color: #6448ad;
 }

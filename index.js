@@ -3,9 +3,9 @@ const todoItemsContainer = document.getElementById('todolist');
 const addTodoButton = document.getElementById('addTodoButton');
 const saveTodoButton = document.getElementById('saveTodoButton');
 
-const img = document.createElement('img');
-img.src = 'https://assets.ccbp.in/frontend/react-js/nxt-watch-no-saved-videos-img.png';
-img.classList.add('no-img')
+// const img = document.createElement('img');
+// img.src = 'https://assets.ccbp.in/frontend/react-js/nxt-watch-no-saved-videos-img.png';
+// img.classList.add('no-img')
 
 let song = "play";
 
