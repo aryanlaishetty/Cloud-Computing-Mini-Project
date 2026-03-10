@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -128,6 +129,7 @@ div img {
 .inside-title-icon {
     display: flex;
     align-content: center;
+    margin-right: 8px;
 }
 
 
@@ -141,8 +143,6 @@ div img {
         "CRSV"0.5,
         "ELSH"0,
         "ELXP"0;
-
-    width: 82%;
     /* padding: 0 1rem; */
     display: flex;
     flex-wrap: nowrap;
@@ -153,7 +153,7 @@ div img {
 
 .now-playing {
     padding-right: 0%;
-    width: 39rem;
+    width: 300px;
 }
 
 .inside-title {
@@ -165,13 +165,14 @@ div img {
 .song-name {
     display: flex;
     align-content: center;
+    width: 400px;
 }
 
 .botton-right-btns {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    
 }
 
 .botton-right-btns div {
@@ -340,4 +341,28 @@ div img {
 }
 .time{
     margin-left: 10px;
+}
+
+
+.volume-container{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.volume-slider{
+    appearance:none;
+    width:130px;
+    height:6px;
+    border-radius:20px;
+    background:#2e2e4d;
+}
+
+.volume-slider::-webkit-slider-thumb{
+    appearance:none;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background:#8a5cff;
+    box-shadow:0 0 10px #8a5cff,0 0 20px #8a5cff;
+    cursor:pointer;
 }
