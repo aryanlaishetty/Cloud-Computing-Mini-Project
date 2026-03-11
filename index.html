@@ -1,126 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZenBeats</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZenBeats</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="body">
     <header>
-        <div class="logo">ZenBeats</div>
-        <div class="par-head-btns">
+        <div class="logo" id="logo">ZenBeats</div>
+        <div class="par-head-btns hider">
             <div class="header-btns">
                 <div type="button" class="about"><i class="fa-solid fa-info"></i></div>
                 <div type="button" class="github" id="github"><i class="fa-brands fa-github"></i></div>
-                <div type="button" class="f12" id="fullscreen"><i class="fa-solid fa-window-maximize"></i></div>
+                <div type="button" class="f12" id="fullScreen"><i class="fa-solid fa-window-maximize"></i></div>
             </div>
         </div>
 
     </header>
 
-    <div class="side-btns btns-container">
-        
-        <!-- Button trigger modal -->
-<button type="button" class="list" data-toggle="modal" data-target="#eModal">
-  <div><i class="fa-solid fa-hourglass-half"></i></div>
-</button>
+    <div class="side-btns btns-container hider">
 
-<!-- Modal -->
-<div class="modal fade" id="eModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content custom">
-      <div class="modal-header">
-        <h1 class="todo-head" id="exampleModalLabel">Timer</h1>
-      </div>
-      <div class="modal-body main">
-        <div class="clock-container">
-            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3430540/clock-icon-md.png" alt="clock" class="clock-img"/>
-            <h1 class="time white"><span id="min">25</span>:<span id="sec">00</span></h1>
+        <!-- Button trigger modal -->
+        <button type="button" class="list" data-toggle="modal" data-target="#eModal">
+            <div><i class="fa-solid fa-hourglass-half"></i></div>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="eModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content custom">
+                    <div class="modal-header">
+                        <h1 class="todo-head" id="exampleModalLabel">Timer</h1>
+                    </div>
+                    <div class="modal-body main">
+                        <div class="clock-container">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sand-clock-icon-svg-download-png-624968.png"
+                                alt="clock" class="clock-img" />
+                            <h1 class="time white"><span id="min">25</span>:<span id="sec">00</span></h1>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-styles btn-colors" onclick="resetTimer()">Reset</button>
+                            <button type="button" class="btn btn-primary btn-styles btn-colors" onclick="startTimer()">Start</button>
+                            <button type="button" class="btn btn-primary btn-styles btn-colors" onclick="stopTimer()">Stop</button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-styles" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <button type="button" class="btn btn-primary" onclick="resetTimer()">Reset</button>
-            <button type="button" class="btn btn-primary" onclick="startTimer()">Start</button>
-            <button type="button" class="btn btn-primary" onclick="stopTimer()">Stop</button>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
         <!-- Button trigger modal -->
         <button type="button" class="list" data-toggle="modal" data-target="#exampleModal">
             <div><i class="fa-solid fa-list-check"></i></div>
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content custom">
                     <div class="modal-header">
-                        <h1 class="todo-head">TodoList</h1>
+                        <h1 class="todo-head btn-styles">TodoList</h1>
                     </div>
                     <div class="modal-body">
                         <div class="task-input-container">
                             <input type="text" placeholder="Add a Task Here" class="task-input" id="todoUserInput" />
-                            <button type='button' class="btn btn-primary" id='addTodoButton'>Add</button>
+                            <button type='button' class="btn btn-primary btn-styles btn-colors" id='addTodoButton'>Add</button>
                         </div>
-                        <ul id='todolist'></ul>
+                        <ul id='todolist' class="btn-styles"></ul>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="saveTodoButton">Save changes</button>
+                        <button type="button" class="btn btn-secondary btn-styles" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary btn-styles btn-colors" id="saveTodoButton">Save changes</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bottom-bar btns-container">
+    <div class="bottom-bar btns-container hider">
         <div type="button" class="title-bar">
             <div class="inside-title-icon">
                 <i class="fa-solid fa-compact-disc"></i>
             </div>
             <div class="now-playing">Now Playing ╰⁠(⁠ ⁠･⁠ ⁠ᗜ⁠ ⁠･⁠ ⁠)⁠➝ ⁠♪ </div>
             <div class="inside-title">
-                <marquee class="song-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias, pariatur dolore, quas omnis quod nam numquam atque maiores, nostrum minima ducimus sequi illo quasi libero a distinctio earum illum.</marquee>
+                <div class="song-title-container">
+                    <div class="song-name">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias, pariatur
+                        dolore, quas omnis quod nam numquam atque maiores, nostrum minima ducimus sequi illo quasi
+                        libero a
+                        distinctio earum illum.
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="botton-right-btns">
-            <div type="button" class="play-song" onclick="play()"><i class="fa-solid fa-play" id="play"></i></div>
-            <div type="button" class="next-song" onclick="changeSong()"><i class="fa-solid fa-angles-right" id="playnext"></i></div>
-            <div type="button" class="next-screen" onclick="changeGif()"><i class="fa-solid fa-tv"></i></div>
-            <!-- <div type="button" class="url-bar"></div> -->
-            
-            <div class="volume-container">
-                <i class="fa-solid fa-volume-high" id="speakerOn"></i>
-                <input type="range" min="0" max="1" step="0.01" class="volume-slider">
+            <div class="botton-right-btns">
+                <div type="button" class="play-song" onclick="play()"><i class="fa-solid fa-play" id="play"></i></div>
+                <div type="button" class="next-song" onclick="changeSong()"><i class="fa-solid fa-angles-right"
+                        id="playnext"></i></div>
+                <div type="button" class="next-screen" onclick="changeGif()"><i class="fa-solid fa-tv"></i></div>
+                <!-- <div type="button" class="url-bar"></div> -->
+
+                <div class="volume-container">
+                    <i class="fa-solid fa-volume-high" id="speakerOn"></i>
+                    <input type="range" min="0" max="1" step="0.01" class="volume-slider">
+                </div>
+                <!-- <div type="button" class="volume-knob"><i class="fa-solid fa-atom"></i></div> -->
+                <!-- <div type="button" class="hide-btn"><i class="fa-solid fa-eye-slash"></i></div> -->
+                <!-- <div type="button" class="unhide-btn"><i class="fa-solid fa-eye"></i></div> -->
             </div>
-            <!-- <div type="button" class="volume-knob"><i class="fa-solid fa-atom"></i></div> -->
-            <!-- <div type="button" class="hide-btn"><i class="fa-solid fa-eye-slash"></i></div> -->
-            <!-- <div type="button" class="unhide-btn"><i class="fa-solid fa-eye"></i></div> -->
-        </div>
 
-    </div>
-    <audio id="audioPlayer"></audio>
-    <script src="index.js"></script>
+        </div>
+        <audio id="audioPlayer"></audio>
+        <script src="index.js"></script>
 </body>
 
 </html>

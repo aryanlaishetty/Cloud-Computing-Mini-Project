@@ -16,7 +16,7 @@ body {
     font-style: normal;
     font-size: 1rem;
 
-    background-image: url(gifs/11.gif);
+    /* background-image: url(gifs/11.gif); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -118,7 +118,7 @@ div img {
     margin-bottom: 1.25rem;
     position: absolute;
     bottom: 0;
-    width: 90%;
+    width: auto;
     left: 50%;
     right: 50%;
     justify-self: center;
@@ -129,7 +129,7 @@ div img {
 .inside-title-icon {
     display: flex;
     align-content: center;
-    margin-right: 8px;
+    margin-right: 11px;
 }
 
 
@@ -151,9 +151,10 @@ div img {
 
 }
 
-.now-playing {
-    padding-right: 0%;
-    width: 300px;
+.now-playing {    
+    padding-right: 12px;
+    width: max-content;
+    white-space: nowrap;
 }
 
 .inside-title {
@@ -165,7 +166,7 @@ div img {
 .song-name {
     display: flex;
     align-content: center;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .botton-right-btns {
@@ -365,4 +366,52 @@ div img {
     background:#8a5cff;
     box-shadow:0 0 10px #8a5cff,0 0 20px #8a5cff;
     cursor:pointer;
+}
+
+.song-title-container {
+    width: 350px;   /* adjust based on your player width */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.song-name {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.btn-styles {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.btn-colors {
+    background-color: #6448ad;
+    border-color: #8a5cff;
+}
+
+.btn-colors:hover{
+    background-color: #4f329a;
+    border-color: #8a5cff;
+}
+
+.btn-styles:active{
+    background-color: #4f329a;
+    border-color: #8a5cff;
+}
+
+
+.hidden {
+    display: none;
 }
