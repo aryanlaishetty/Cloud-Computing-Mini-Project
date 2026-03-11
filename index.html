@@ -26,8 +26,8 @@
         <div class="par-head-btns">
             <div class="header-btns">
                 <div type="button" class="about"><i class="fa-solid fa-info"></i></div>
-                <div type="button" class="github"><i class="fa-brands fa-github"></i></div>
-                <div type="button" class="f12"><i class="fa-solid fa-window-maximize"></i></div>
+                <div type="button" class="github" id="github"><i class="fa-brands fa-github"></i></div>
+                <div type="button" class="f12" id="fullscreen"><i class="fa-solid fa-window-maximize"></i></div>
             </div>
         </div>
 
@@ -105,17 +105,17 @@
 
         <div class="botton-right-btns">
             <div type="button" class="play-song" onclick="play()"><i class="fa-solid fa-play" id="play"></i></div>
-            <div type="button" class="next-song" onclick="next()"><i class="fa-solid fa-angles-right" id="playnext"></i></div>
-            <div type="button" class="next-screen"><i class="fa-solid fa-tv"></i></div>
+            <div type="button" class="next-song" onclick="changeSong()"><i class="fa-solid fa-angles-right" id="playnext"></i></div>
+            <div type="button" class="next-screen" onclick="changeGif()"><i class="fa-solid fa-tv"></i></div>
             <!-- <div type="button" class="url-bar"></div> -->
             
             <div class="volume-container">
-                <i class="fa-solid fa-volume-high mute-sound i"></i>
+                <i class="fa-solid fa-volume-high" id="speakerOn"></i>
                 <input type="range" min="0" max="1" step="0.01" class="volume-slider">
             </div>
-            <div type="button" class="volume-knob"><i class="fa-solid fa-atom"></i></div>
-            <div type="button" class="hide-btn"><i class="fa-solid fa-eye-slash"></i></div>
-            <div type="button" class="unhide-btn"><i class="fa-solid fa-eye"></i></div>
+            <!-- <div type="button" class="volume-knob"><i class="fa-solid fa-atom"></i></div> -->
+            <!-- <div type="button" class="hide-btn"><i class="fa-solid fa-eye-slash"></i></div> -->
+            <!-- <div type="button" class="unhide-btn"><i class="fa-solid fa-eye"></i></div> -->
         </div>
 
     </div>
